@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main___bottom_navigation"
+        android:icon="@drawable/main" />
+
+    <item
+        android:id="@+id/youtube___bottom_navigation"
+        android:icon="@drawable/youtube" />
+
+    <item
+        android:id="@+id/site___bottom_navigation"
+        android:icon="@drawable/site" />
+
+    <item
+        android:id="@+id/email___bottom_navigation"
+        android:icon="@drawable/email" />
+</menu>

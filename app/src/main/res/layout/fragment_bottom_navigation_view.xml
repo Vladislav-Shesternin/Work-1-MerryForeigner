@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.bottomnavigation.BottomNavigationView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottomNavigationView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginBottom="10dp"
+    app:itemIconTint="@color/bottom_navigation_view"
+    android:background="@drawable/bottom_navigation_view"
+    app:labelVisibilityMode="unlabeled"
+    app:menu="@menu/bottom_navigation___main_youtube_site_email"
+    tools:context=".fragments.fragment_bottom.BottomNavigationViewFragment">
+
+</com.google.android.material.bottomnavigation.BottomNavigationView>

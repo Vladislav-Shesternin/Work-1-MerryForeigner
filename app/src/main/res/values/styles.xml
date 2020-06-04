@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent
+        </item>
+    </style>
+
+    <style name="AppTheme.Splash">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/checkedTrue</item>
+    </style>
+
+
+    <style name="Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/titleSize___25sp</item>
+        <item name="android:textColor">@color/colorHeart</item>
+        <item name="android:fontFamily">@font/heuristica_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/heuristica_regular</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textColor">@color/colorHeart</item>
+        <item name="android:textSize">@dimen/textSize___18sp</item>
+        <item name="android:fontFamily">@font/heuristica_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/heuristica_regular</item>
+    </style>
+
+    <style name="Text.Menu">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Text.Other">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Image">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="Image.Other">
+        <item name="layout_constraintHeight_percent">.06</item>
+    </style>
+
+</resources>

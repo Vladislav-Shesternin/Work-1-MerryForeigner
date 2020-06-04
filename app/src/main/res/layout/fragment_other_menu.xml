@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.fragment_center.OtherMenuFragment">
+
+    <ImageView
+        android:id="@+id/imageView___fragment_other_menu___contact"
+        style="@style/Image.Other"
+        android:src="@drawable/contact"
+        app:layout_constraintBottom_toTopOf="@+id/imageView___fragment_other_menu___reply"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_V___fragment_other_menu___30"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline_V___fragment_other_menu___5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView___fragment_other_menu___reply"
+        style="@style/Image.Other"
+        android:src="@drawable/reply"
+        app:layout_constraintBottom_toTopOf="@+id/imageView___fragment_other_menu___confidentiality"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_V___fragment_other_menu___30"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline_V___fragment_other_menu___5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView___fragment_other_menu___contact" />
+
+    <ImageView
+        android:id="@+id/imageView___fragment_other_menu___confidentiality"
+        style="@style/Image.Other"
+        android:src="@drawable/confidentiality"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_other_menu___60"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_V___fragment_other_menu___30"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/guideline_V___fragment_other_menu___5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView___fragment_other_menu___reply" />
+
+    <TextView
+        android:id="@+id/textView___fragment_other_menu___contact"
+        style="@style/Text.Other"
+        android:text="@string/contact"
+        app:layout_constraintBottom_toTopOf="@+id/imageView___fragment_other_menu___contact"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_V___fragment_other_menu___95"
+        app:layout_constraintStart_toEndOf="@id/guideline_V___fragment_other_menu___30"
+        app:layout_constraintTop_toBottomOf="@+id/imageView___fragment_other_menu___contact" />
+
+    <TextView
+        android:id="@+id/textView___fragment_other_menu___reply"
+        style="@style/Text.Other"
+        android:text="@string/reply"
+        app:layout_constraintBottom_toTopOf="@+id/imageView___fragment_other_menu___reply"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_V___fragment_other_menu___95"
+        app:layout_constraintStart_toEndOf="@id/guideline_V___fragment_other_menu___30"
+        app:layout_constraintTop_toBottomOf="@+id/imageView___fragment_other_menu___reply" />
+
+    <TextView
+        android:id="@+id/textView___fragment_other_menu___confidentiality"
+        style="@style/Text.Other"
+        android:text="@string/confidentiality"
+        app:layout_constraintBottom_toTopOf="@+id/imageView___fragment_other_menu___confidentiality"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_V___fragment_other_menu___95"
+        app:layout_constraintStart_toEndOf="@id/guideline_V___fragment_other_menu___30"
+        app:layout_constraintTop_toBottomOf="@+id/imageView___fragment_other_menu___confidentiality" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_V___fragment_other_menu___5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_V___fragment_other_menu___30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.30" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_V___fragment_other_menu___95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_H___fragment_other_menu___60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

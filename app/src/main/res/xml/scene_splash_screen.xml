@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@layout/activity_main">
+
+        <OnSwipe
+            app:dragDirection="dragRight"
+            app:touchAnchorId="@+id/container___activity_main___splash_screen"
+            app:touchAnchorSide="right"
+            app:onTouchUp="autoComplete"
+            app:touchRegionId="@+id/imageView___fragment_menu___aboutAuthor" />
+
+    </Transition>
+
+    <Transition
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@layout/activity_main">
+
+        <OnSwipe
+            app:dragDirection="dragRight"
+            app:touchAnchorId="@+id/container___activity_main___splash_screen"
+            app:touchAnchorSide="right"
+            app:onTouchUp="autoComplete"
+            app:touchRegionId="@+id/imageView___fragment_menu___datingProject" />
+
+    </Transition>
+
+    <Transition
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@layout/activity_main">
+
+        <OnSwipe
+            app:dragDirection="dragRight"
+            app:touchAnchorId="@+id/container___activity_main___splash_screen"
+            app:touchAnchorSide="right"
+            app:onTouchUp="autoComplete"
+            app:touchRegionId="@+id/imageView___fragment_menu___coaching" />
+
+    </Transition>
+
+    <Transition
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@layout/activity_main">
+
+        <OnSwipe
+            app:dragDirection="dragRight"
+            app:touchAnchorId="@+id/container___activity_main___splash_screen"
+            app:touchAnchorSide="right"
+            app:onTouchUp="autoComplete"
+            app:touchRegionId="@+id/imageView___fragment_menu___VIP" />
+
+    </Transition>
+
+    <Transition
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@layout/activity_main">
+
+        <OnSwipe
+            app:dragDirection="dragRight"
+            app:touchAnchorId="@+id/container___activity_main___splash_screen"
+            app:touchAnchorSide="right"
+            app:onTouchUp="autoComplete"
+            app:touchRegionId="@+id/imageView___fragment_menu___score" />
+
+    </Transition>
+
+    <Transition
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@layout/activity_main">
+
+        <OnSwipe
+            app:dragDirection="dragRight"
+            app:touchAnchorId="@+id/container___activity_main___splash_screen"
+            app:touchAnchorSide="right"
+            app:onTouchUp="autoComplete"
+            app:touchRegionId="@+id/imageView___fragment_menu___webinar" />
+
+    </Transition>
+
+    <Transition
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@layout/activity_main">
+
+        <OnSwipe
+            app:dragDirection="dragRight"
+            app:touchAnchorId="@+id/container___activity_main___splash_screen"
+            app:touchAnchorSide="right"
+            app:onTouchUp="autoComplete"
+            app:touchRegionId="@+id/imageView___fragment_menu___blog" />
+
+    </Transition>
+
+    <Transition
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@layout/activity_main">
+
+        <OnSwipe
+            app:dragDirection="dragRight"
+            app:touchAnchorId="@+id/container___activity_main___splash_screen"
+            app:touchAnchorSide="right"
+            app:onTouchUp="autoComplete"
+            app:touchRegionId="@+id/imageView___fragment_menu___free" />
+
+    </Transition>
+
+    <Transition
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@layout/activity_main">
+
+        <OnSwipe
+            app:dragDirection="dragRight"
+            app:touchAnchorId="@+id/container___activity_main___splash_screen"
+            app:touchAnchorSide="right"
+            app:onTouchUp="autoComplete"
+            app:touchRegionId="@+id/imageView___fragment_menu___consultation" />
+
+    </Transition>
+
+
+    <ConstraintSet android:id="@+id/end">
+
+        <Constraint android:id="@+id/container___activity_main___splash_screen">
+            <Layout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <Transform android:elevation="1dp"/>
+        </Constraint>
+
+    </ConstraintSet>
+
+</MotionScene>

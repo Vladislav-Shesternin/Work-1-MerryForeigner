@@ -1,0 +1,37 @@
+<resources>
+    <!--Title-->
+    <string name="app_name">Замуж за Иностранца</string>
+    <string name="datingProjectTitle">Проект замужества</string>
+    <string name="consultationTitle">Консультирование</string>
+    <!--Title-->
+
+    <!--Toolbar Menu-->
+    <string name="menu">Меню</string>
+    <!--Toolbar Menu-->
+
+    <!--MenuFragment-->
+    <string name="aboutAuthor">Об авторе</string>
+    <string name="datingProject">Проект\nзамужества</string>
+    <string name="coaching">Коучинг</string>
+    <string name="VIP">VIP-Клуб</string>
+    <string name="score">Магазин</string>
+    <string name="webinar">Вебинары</string>
+    <string name="blog">Блог</string>
+    <string name="free">Бесплатно</string>
+    <string name="consultation">Консульти-\nрование</string>
+    <!--MenuFragment-->
+
+    <!--BottomNavigationViewFragment-->
+    <string name="main">Главная</string>
+    <string name="youtube">YouTube канал</string>
+    <string name="site">Сайт</string>
+    <string name="email">Написать мне</string>
+    <!--BottomNavigationViewFragment-->
+
+
+    <!--OtherMenuFragment-->
+    <string name="contact">Мои контакты</string>
+    <string name="reply">Поделиться приложением</string>
+    <string name="confidentiality">Политика конфиденциальности</string>
+    <!--OtherMenuFragment-->
+</resources>

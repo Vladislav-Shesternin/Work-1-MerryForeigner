@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize___18sp">18sp</dimen>
+    <dimen name="titleSize___25sp">25sp</dimen>
+    <dimen name="paddingHorizontal_textMenu___5dp">5dp</dimen>
+</resources>

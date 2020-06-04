@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    System Color-->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <!--    MyColor-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorHeart">#9E384D</color>
+    <color name="checkedFalse">#969696</color>
+    <color name="checkedTrue">#4CA9BF</color>
+</resources>

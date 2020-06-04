@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintLayout___fragment_menu___center"
+    android:background="@android:color/transparent"
+    tools:context=".fragments.fragment_center.MenuFragment">
+
+    <ImageView
+        android:id="@+id/imageView___fragment_menu___aboutAuthor"
+        style="@style/Image"
+        android:src="@drawable/about_author"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___21"
+        app:layout_constraintEnd_toStartOf="@+id/imageView___fragment_menu___datingProject"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_H___fragment_menu___9" />
+
+    <TextView
+        android:id="@+id/textView___fragment_menu___aboutAuthor"
+        style="@style/Text.Menu"
+        android:paddingHorizontal="@dimen/paddingHorizontal_textMenu___5dp"
+        android:text="@string/aboutAuthor"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___31"
+        app:layout_constraintEnd_toEndOf="@+id/imageView___fragment_menu___aboutAuthor"
+        app:layout_constraintStart_toStartOf="@+id/imageView___fragment_menu___aboutAuthor"
+        app:layout_constraintTop_toBottomOf="@+id/imageView___fragment_menu___aboutAuthor" />
+
+    <ImageView
+        android:id="@+id/imageView___fragment_menu___datingProject"
+        style="@style/Image"
+        android:src="@drawable/dating_project"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___21"
+        app:layout_constraintEnd_toStartOf="@+id/imageView___fragment_menu___coaching"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView___fragment_menu___aboutAuthor"
+        app:layout_constraintTop_toTopOf="@+id/guideline_H___fragment_menu___9" />
+
+    <TextView
+        android:id="@+id/textView___fragment_menu___datingProject"
+        style="@style/Text.Menu"
+        android:paddingHorizontal="@dimen/paddingHorizontal_textMenu___5dp"
+        android:text="@string/datingProject"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___31"
+        app:layout_constraintEnd_toEndOf="@+id/imageView___fragment_menu___datingProject"
+        app:layout_constraintStart_toStartOf="@+id/imageView___fragment_menu___datingProject"
+        app:layout_constraintTop_toBottomOf="@+id/imageView___fragment_menu___datingProject" />
+
+    <ImageView
+        android:id="@+id/imageView___fragment_menu___coaching"
+        style="@style/Image"
+        android:src="@drawable/coaching"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView___fragment_menu___datingProject"
+        app:layout_constraintTop_toTopOf="@+id/guideline_H___fragment_menu___9" />
+
+    <TextView
+        android:id="@+id/textView___fragment_menu___coaching"
+        style="@style/Text.Menu"
+        android:paddingHorizontal="@dimen/paddingHorizontal_textMenu___5dp"
+        android:text="@string/coaching"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___31"
+        app:layout_constraintEnd_toEndOf="@+id/imageView___fragment_menu___coaching"
+        app:layout_constraintStart_toStartOf="@+id/imageView___fragment_menu___coaching"
+        app:layout_constraintTop_toBottomOf="@+id/imageView___fragment_menu___coaching" />
+
+    <ImageView
+        android:id="@+id/imageView___fragment_menu___VIP"
+        style="@style/Image"
+        android:src="@drawable/vip"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___48"
+        app:layout_constraintEnd_toStartOf="@+id/imageView___fragment_menu___score"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_H___fragment_menu___36" />
+
+    <TextView
+        android:id="@+id/textView___fragment_menu___VIP"
+        style="@style/Text.Menu"
+        android:paddingHorizontal="@dimen/paddingHorizontal_textMenu___5dp"
+        android:text="@string/VIP"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___58"
+        app:layout_constraintEnd_toEndOf="@+id/imageView___fragment_menu___VIP"
+        app:layout_constraintStart_toStartOf="@+id/imageView___fragment_menu___VIP"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_H___fragment_menu___48" />
+
+    <ImageView
+        android:id="@+id/imageView___fragment_menu___score"
+        style="@style/Image"
+        android:src="@drawable/score"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___48"
+        app:layout_constraintEnd_toStartOf="@+id/imageView___fragment_menu___webinar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView___fragment_menu___VIP"
+        app:layout_constraintTop_toTopOf="@+id/guideline_H___fragment_menu___36" />
+
+    <TextView
+        android:id="@+id/textView___fragment_menu___score"
+        style="@style/Text.Menu"
+        android:paddingHorizontal="@dimen/paddingHorizontal_textMenu___5dp"
+        android:text="@string/score"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___58"
+        app:layout_constraintEnd_toEndOf="@+id/imageView___fragment_menu___score"
+        app:layout_constraintStart_toStartOf="@+id/imageView___fragment_menu___score"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_H___fragment_menu___48" />
+
+    <ImageView
+        android:id="@+id/imageView___fragment_menu___webinar"
+        style="@style/Image"
+        android:src="@drawable/webinar"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___48"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView___fragment_menu___score"
+        app:layout_constraintTop_toTopOf="@+id/guideline_H___fragment_menu___36" />
+
+    <TextView
+        android:id="@+id/textView___fragment_menu___webinar"
+        style="@style/Text.Menu"
+        android:paddingHorizontal="@dimen/paddingHorizontal_textMenu___5dp"
+        android:text="@string/webinar"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___58"
+        app:layout_constraintEnd_toEndOf="@+id/imageView___fragment_menu___webinar"
+        app:layout_constraintStart_toStartOf="@+id/imageView___fragment_menu___webinar"
+        app:layout_constraintTop_toBottomOf="@+id/guideline_H___fragment_menu___48" />
+
+    <ImageView
+        android:id="@+id/imageView___fragment_menu___blog"
+        style="@style/Image"
+        android:src="@drawable/blog"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___75"
+        app:layout_constraintEnd_toStartOf="@+id/imageView___fragment_menu___free"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_H___fragment_menu___63" />
+
+    <TextView
+        android:id="@+id/textView___fragment_menu___blog"
+        style="@style/Text.Menu"
+        android:paddingHorizontal="@dimen/paddingHorizontal_textMenu___5dp"
+        android:text="@string/blog"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___85"
+        app:layout_constraintEnd_toEndOf="@+id/imageView___fragment_menu___blog"
+        app:layout_constraintStart_toStartOf="@+id/imageView___fragment_menu___blog"
+        app:layout_constraintTop_toTopOf="@+id/guideline_H___fragment_menu___75" />
+
+    <ImageView
+        android:id="@+id/imageView___fragment_menu___free"
+        style="@style/Image"
+        android:src="@drawable/free"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___75"
+        app:layout_constraintEnd_toStartOf="@+id/imageView___fragment_menu___consultation"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView___fragment_menu___blog"
+        app:layout_constraintTop_toTopOf="@+id/guideline_H___fragment_menu___63" />
+
+    <TextView
+        android:id="@+id/textView___fragment_menu___free"
+        style="@style/Text.Menu"
+        android:paddingHorizontal="@dimen/paddingHorizontal_textMenu___5dp"
+        android:text="@string/free"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___85"
+        app:layout_constraintEnd_toEndOf="@+id/imageView___fragment_menu___free"
+        app:layout_constraintStart_toStartOf="@+id/imageView___fragment_menu___free"
+        app:layout_constraintTop_toTopOf="@+id/guideline_H___fragment_menu___75" />
+
+    <ImageView
+        android:id="@+id/imageView___fragment_menu___consultation"
+        style="@style/Image"
+        android:src="@drawable/consultation"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___75"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView___fragment_menu___free"
+        app:layout_constraintTop_toTopOf="@+id/guideline_H___fragment_menu___63"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/textView___fragment_menu___consultation"
+        style="@style/Text.Menu"
+        android:paddingHorizontal="@dimen/paddingHorizontal_textMenu___5dp"
+        android:text="@string/consultation"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_H___fragment_menu___85"
+        app:layout_constraintEnd_toEndOf="@+id/imageView___fragment_menu___consultation"
+        app:layout_constraintStart_toStartOf="@+id/imageView___fragment_menu___consultation"
+        app:layout_constraintTop_toTopOf="@+id/guideline_H___fragment_menu___75" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_H___fragment_menu___9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.09" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_H___fragment_menu___21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.21" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_H___fragment_menu___31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.31" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_H___fragment_menu___36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.36" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_H___fragment_menu___48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.48" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_H___fragment_menu___58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.58" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_H___fragment_menu___63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.63" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_H___fragment_menu___75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_H___fragment_menu___85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
